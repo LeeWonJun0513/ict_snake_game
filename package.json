@@ -1,0 +1,16 @@
+{
+  "name" : "ict_snake_game",
+  "description" : "this is assignment project for ict project",
+  "homepage" : "https://github.com/wksdn18/ict_snake_game",
+  "author" : "wksdn18<wksdn18@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.0.x",
+    "socket.io": "0.9.x",
+    "underscore": "1.4.x"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ICT SNAKE GAME</title>
+        <!-- <link rel="stylesheet" href="css/styles.css"> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu" rel="stylesheet">
+        <style>
+            body {
+                width: 940px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-family: 'Ubuntu', sans-serif;
+                color: black;
+                text-align: center;
+            }
+            h1 {
+                background-color: white;
+                color: black;
+                font-weight: normal;
+            }
+            div.sideboard {
+                width: 420px;
+                height: 300px;
+                margin-right: 20px;
+                background-color: white;
+            }
+            div.sideboard,
+            #stage {
+                float: left;
+            }
+            #scoreboard {
+                width: 80%;
+                margin: 0 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ICT SNAKE GAME</h1>
+        <div class="sideboard">
+            <table id="scoreboard">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Kills</th>
+                        <th>Deaths</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <canvas id="stage" width="500" height="500">
+            Canvas not supported.
+        </canvas>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/client.js"></script>
+    </body>
+</html>
